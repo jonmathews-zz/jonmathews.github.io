@@ -10,7 +10,7 @@ comments: 	true
 
 <h2 class="section-heading">Background</h2>
 
-<p>At the beginnning of last year, having spent about two years trying to learn some web development skills with the help of online tutorials, I decided to bite the bullet and try out my new skills on some real projects. I've heard this advice many times now, and it's taken me a long time to act on it, but to anyone doing this I'd recommend you: (1) find a real project to hone your skills; (2) don't worry about it being a viable business idea, or you'll never get started; and, (3) write about it. Trust me, you will learn a lot.</p>
+<p>At the beginnning of last year, having spent about two years trying to learn some web development skills with the help of online tutorials, I decided to bite the bullet and try out my new skills on some real projects. I've heard this advice many times now, and it's taken me a long time to act on it, but I'd recommend: (1) finding a real project to hone your skills; (2) not worrying about it being a viable business idea (or you'll never get started); (3) writing it up. Trust me, you will learn a lot.</p>
 
 <p>A friend was in the same boat (although he had more experience than me), so we embarked on this project together and it made the whole process a lot more interesting and fun. He also taught me a lot, as we both had different ways of thinking about the same problem.</p>
 
