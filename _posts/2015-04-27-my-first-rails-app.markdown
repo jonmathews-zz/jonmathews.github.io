@@ -40,10 +40,10 @@ comments: 	true
 
 <p>The interface with the customer would be entirely through SMS, although there would be an HTML landing page showing details of the offer and generating a referral SMS, containing a tracking url.</p>
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/first-rails-app-image06.jpg" alt="Mapping the workflow">
-</a>
-<span class="caption text-muted">Figuring out the user flow with Post-its</span>
+<div>
+	<img src="{{ site.baseurl }}/img/first-rails-app-image06.jpg" alt="Mapping the workflow">
+	<span class="caption text-muted">Figuring out the user flow with Post-its</span>
+</div>
 
 <h2 class="section-heading">Getting it built</h2>
 
@@ -57,25 +57,17 @@ comments: 	true
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-4">
-			<a href="#">
-				<img src="{{ site.baseurl }}/img/first-rails-app-image02.png" alt="">
-			</a>
+			<img src="{{ site.baseurl }}/img/first-rails-app-image02.png" alt="">
 			<p></p>
-			<a href="#">
-				<img src="{{ site.baseurl }}/img/first-rails-app-image01.png" alt="">
-			</a>
+			<img src="{{ site.baseurl }}/img/first-rails-app-image01.png" alt="">
 			<span class="caption text-muted">Two options for initiating the interaction with the customer. Either the customer initiates with a text to a short code, or the restaurant sends a text to the customer after leaving the restaurant.<br></span>
 		</div>
 		<div class="col-md-4">
-			<a href="#">
-				<img src="{{ site.baseurl }}/img/first-rails-app-image09.png" alt="">
-			</a>
+			<img src="{{ site.baseurl }}/img/first-rails-app-image09.png" alt="">
 			<span class="caption text-muted">The mobile-optimised landing page. Clicking on the button generates an sms containing the referral link.<br></span>
 		</div>
 		<div class="col-md-4">
-			<a href="#">
-				<img src="{{ site.baseurl }}/img/first-rails-app-image05.png" alt="">
-			</a>
+			<img src="{{ site.baseurl }}/img/first-rails-app-image05.png" alt="">
 			<span class="caption text-muted">The customer can customize the text and forward to a friend.<br></span>
 		</div>
 	</div>
@@ -84,21 +76,15 @@ comments: 	true
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-4">
-			<a href="#">
-				<img src="{{ site.baseurl }}/img/first-rails-app-image07.png" alt="">
-			</a>
+			<img src="{{ site.baseurl }}/img/first-rails-app-image07.png" alt="">
 			<span class="caption text-muted">The friend clicks on the link in the SMS and enters their phone number to receive an SMS with the activation code.<br></span>
 		</div>
 		<div class="col-md-4">
-			<a href="#">
-				<img src="{{ site.baseurl }}/img/first-rails-app-image10.png" alt="">
-			</a>
+			<img src="{{ site.baseurl }}/img/first-rails-app-image10.png" alt="">
 			<span class="caption text-muted">The friend’s SMS with the activation code. A similar SMS is sent to the referrer when the friend redeems this code.<br></span>
 		</div>
 		<div class="col-md-4">
-			<a href="#">
-				<img src="{{ site.baseurl }}/img/first-rails-app-image00.png" alt="">
-			</a>
+			<img src="{{ site.baseurl }}/img/first-rails-app-image00.png" alt="">
 			<span class="caption text-muted">Restaurant console: This screen shows a timeline of the customers’ interactions and referral activity.<br></span>
 		</div>
 	</div>
@@ -107,21 +93,15 @@ comments: 	true
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-4">
-			<a href="#">
-				<img src="{{ site.baseurl }}/img/first-rails-app-image08.png" alt="">
-			</a>
+			<img src="{{ site.baseurl }}/img/first-rails-app-image08.png" alt="">
 			<span class="caption text-muted">Restaurant console: This screen initiates a text flow to the customer.<br></span>
 		</div>
 		<div class="col-md-4">
-			<a href="#">
-				<img src="{{ site.baseurl }}/img/first-rails-app-image04.png" alt="">
-			</a>
+			<img src="{{ site.baseurl }}/img/first-rails-app-image04.png" alt="">
 			<span class="caption text-muted">Restaurant console: This screen is used to redeem the offer and triggers the reciprocal reward (if applicable).<br></span>
 		</div>
 		<div class="col-md-4">
-			<a href="#">
-				<img src="{{ site.baseurl }}/img/first-rails-app-image03.png" alt="">
-			</a>
+			<img src="{{ site.baseurl }}/img/first-rails-app-image03.png" alt="">
 			<span class="caption text-muted">Restaurant console: Settings for the Twilio API and phone numbers - obviously the restaurant would not see this in the real world. (PS: these are not the real ones).<br></span>
 		</div>
 	</div>
