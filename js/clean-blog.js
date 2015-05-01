@@ -31,11 +31,11 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "http://getsimpleform.com/messages/ajax?form_api_token=8af87f14216e55a383eb2a603e0017bf",
                 type: "POST",
+                dataType: 'jsonp',
                 data: {
                     name: name,
-                    phone: phone,
                     email: email,
                     message: message
                 },
