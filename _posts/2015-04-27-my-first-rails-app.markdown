@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "My first Rails app"
-subtitle:   "Build something (anything), get started right away and write about it."
+subtitle:   "Get started right away and don't overthink it."
 date:       2015-04-27 12:00:00
 author:     "Jonathan Mathews"
 header-img: "img/post-bg-02.jpg"
