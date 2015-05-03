@@ -12,9 +12,9 @@ comments: 	true
 
 <p>At the beginnning of last year, I finally decided to put some of the web development skills I'd been learning to use by finding some of my own things to build. I've heard this advice many times now, and it took me a long time to act on it, but I'd recommend: (1) finding a real project to hone your skills; (2) not worrying about it being a viable business idea (or you'll never get started); (3) writing it up. Trust me, you will learn a lot.</p>
 
-<p>A friend was in the same boat (although he had more experience than me), so we embarked on this project together and it made the whole process a lot more interesting and fun. He also taught me a lot, as we both had different ways of thinking about the same problem.</p>
+<p>A friend was in the same boat so we embarked on this project together and it made the whole process a lot more interesting and fun. He also taught me a lot, as we both had different ways of thinking about the same problem.</p>
 
-<p>We wanted to focus our first idea on restaurants, despite the fact that they can be expensive customers to acquire. We weren't too concerned about that. As I mentioned earlier, it’s more important just to get started than try and find the perfect business idea, otherwise you'll never start anything. I’m particularly bad at following that advice.</p>
+<p>We wanted to focus our first idea on restaurants, despite the fact that they can be expensive customers to acquire. We weren't too concerned about that. As I mentioned earlier, it’s more important just to get started than try and find the perfect business idea, otherwise you'll never start anything. I wish I'd been better at following that advice.</p>
 
 <h2 class="section-heading">The Idea</h2>
 
