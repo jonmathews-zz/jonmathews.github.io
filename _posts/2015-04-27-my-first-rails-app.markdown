@@ -41,7 +41,7 @@ comments: 	true
 <p>The interface with the customer would be entirely through SMS, although there would be an HTML landing page showing details of the offer and generating a referral SMS, containing a tracking url.</p>
 
 <div>
-	<img src="{{ site.baseurl }}/img/first-rails-app-image06.jpg" alt="Mapping the workflow">
+<a href="{{ site.baseurl }}/img/first-rails-app-image06.jpg"><img src="{{ site.baseurl }}/img/first-rails-app-image06.jpg" alt="Mapping the workflow"></a>
 	<span class="caption text-muted">Figuring out the user flow with Post-its</span>
 </div>
 
@@ -49,7 +49,7 @@ comments: 	true
 
 <p>We decided we were going to give ourselves three days to build the first prototype, with the goal of ending up with something we could demonstrate to restaurant managers, rather than something that could be used by customers. So, it was more of an “Alpha”, than a “Beta”.</p>
 <p>We used <a href="https://www.twilio.com/" target="_blank">Twilio</a> to do all the SMS magic and I was impressed with how incredibly easy it was to use, and quick to learn. Twilio also has a nice Ruby gem that made it incredibly straightforward to integrate into our Rails app. The latency was incredibly low, and in most cases, SMSs were arriving within a few seconds of us issuing the request.</p>
-<p>We broke the project down into user stories and entered them into <a href="https://trello.com/" >Trello</a>. I’d never used Trello to manage development before, but it worked incredibly well, keeping us on track and focused. It was far more straightforward to use than JIRA, but probably doesn’t scale to large development teams and lacks a lot of the features you need for that.</p>
+<p>We broke the project down into user stories and entered them into <a href="https://trello.com/" target="_blank">Trello</a>. I’d never used Trello to manage development before, but it worked incredibly well, keeping us on track and focused. It was far more straightforward to use than JIRA, but probably doesn’t scale to large development teams and lacks a lot of the features you need for that.</p>
 <p>After three days, we had a prototype that was ready to demonstrate. We deployed it to Heroku and decided to call it Wildfire: the first name that came to mind.</p>
 
 <h2 class="section-heading">Prototype screenshots &amp; flow</h2>
@@ -57,17 +57,17 @@ comments: 	true
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-4">
-			<img src="{{ site.baseurl }}/img/first-rails-app-image02.png" alt="">
+			<a href="{{ site.baseurl }}/img/first-rails-app-image02.png"><img src="{{ site.baseurl }}/img/first-rails-app-image02.png" alt=""></a>
 			<p></p>
-			<img src="{{ site.baseurl }}/img/first-rails-app-image01.png" alt="">
+			<a href="{{ site.baseurl }}/img/first-rails-app-image01.png"><img src="{{ site.baseurl }}/img/first-rails-app-image01.png" alt=""></a>
 			<span class="caption text-muted">Two options for initiating the interaction with the customer. Either the customer initiates with a text to a short code, or the restaurant sends a text to the customer after leaving the restaurant.<br></span>
 		</div>
 		<div class="col-md-4">
-			<img src="{{ site.baseurl }}/img/first-rails-app-image09.png" alt="">
+			<a href="{{ site.baseurl }}/img/first-rails-app-image09.png"><img src="{{ site.baseurl }}/img/first-rails-app-image09.png" alt=""></a>
 			<span class="caption text-muted">The mobile-optimised landing page. Clicking on the button generates an sms containing the referral link.<br></span>
 		</div>
 		<div class="col-md-4">
-			<img src="{{ site.baseurl }}/img/first-rails-app-image05.png" alt="">
+			<a href="{{ site.baseurl }}/img/first-rails-app-image05.png"><img src="{{ site.baseurl }}/img/first-rails-app-image05.png" alt=""></a>
 			<span class="caption text-muted">The customer can customize the text and forward to a friend.<br></span>
 		</div>
 	</div>
@@ -76,15 +76,15 @@ comments: 	true
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-4">
-			<img src="{{ site.baseurl }}/img/first-rails-app-image07.png" alt="">
+			<a href="{{ site.baseurl }}/img/first-rails-app-image07.png"><img src="{{ site.baseurl }}/img/first-rails-app-image07.png" alt=""></a>
 			<span class="caption text-muted">The friend clicks on the link in the SMS and enters their phone number to receive an SMS with the activation code.<br></span>
 		</div>
 		<div class="col-md-4">
-			<img src="{{ site.baseurl }}/img/first-rails-app-image10.png" alt="">
+			<a href="{{ site.baseurl }}/img/first-rails-app-image10.png"><img src="{{ site.baseurl }}/img/first-rails-app-image10.png" alt=""></a>
 			<span class="caption text-muted">The friend’s SMS with the activation code. A similar SMS is sent to the referrer when the friend redeems this code.<br></span>
 		</div>
 		<div class="col-md-4">
-			<img src="{{ site.baseurl }}/img/first-rails-app-image00.png" alt="">
+			<a href="{{ site.baseurl }}/img/first-rails-app-image00.png"><img src="{{ site.baseurl }}/img/first-rails-app-image00.png" alt=""></a>
 			<span class="caption text-muted">Restaurant console: This screen shows a timeline of the customers’ interactions and referral activity.<br></span>
 		</div>
 	</div>
@@ -93,15 +93,15 @@ comments: 	true
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-4">
-			<img src="{{ site.baseurl }}/img/first-rails-app-image08.png" alt="">
+			<a href="{{ site.baseurl }}/img/first-rails-app-image08.png"><img src="{{ site.baseurl }}/img/first-rails-app-image08.png" alt=""></a>
 			<span class="caption text-muted">Restaurant console: This screen initiates a text flow to the customer.<br></span>
 		</div>
 		<div class="col-md-4">
-			<img src="{{ site.baseurl }}/img/first-rails-app-image04.png" alt="">
+			<a href="{{ site.baseurl }}/img/first-rails-app-image04.png"><img src="{{ site.baseurl }}/img/first-rails-app-image04.png" alt=""></a>
 			<span class="caption text-muted">Restaurant console: This screen is used to redeem the offer and triggers the reciprocal reward (if applicable).<br></span>
 		</div>
 		<div class="col-md-4">
-			<img src="{{ site.baseurl }}/img/first-rails-app-image03.png" alt="">
+			<a href="{{ site.baseurl }}/img/first-rails-app-image03.png"><img src="{{ site.baseurl }}/img/first-rails-app-image03.png" alt=""></a>
 			<span class="caption text-muted">Restaurant console: Settings for the Twilio API and phone numbers - obviously the restaurant would not see this in the real world. (PS: these are not the real ones).<br></span>
 		</div>
 	</div>
