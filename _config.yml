@@ -1,6 +1,6 @@
 # Site settings
 title: Jonathan Mathews
-header-img: img/home-bg.png
+header-img: "http://res.cloudinary.com/jonmathews-com/image/upload/q_32/v1433691011/home-bg_lk6xjf.jpg"
 email: jdmathews@gmail.com
 description: "Jonathan Mathews | Product Manager"
 baseurl: ""
